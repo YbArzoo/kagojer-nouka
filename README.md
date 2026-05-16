@@ -48,15 +48,6 @@ Kagojer Nouka is a high-performance, headless e-commerce platform built for aest
 
 ---
 
-## 📸 Screenshots
-
-*(Add your screenshots here by dragging and dropping them into the GitHub editor!)*
-* **Storefront Homepage** - `![Homepage](link-to-image)`
-* **Reactive Cart & Coupons** - `![Cart](link-to-image)`
-* **Filament Admin Dashboard** - `![Admin](link-to-image)`
-
----
-
 ## 🛠️ Local Development Setup
 
 This project is structured as a monorepo containing two separate applications: `admin-panel` (Backend) and `storefront` (Frontend).
