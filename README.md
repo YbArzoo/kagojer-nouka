@@ -76,10 +76,13 @@ php artisan migrate --seed
 # Link storage for images
 php artisan storage:link
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Start the Laravel development server
+php artisan serve
+
+
 The API will run at http://127.0.0.1:8000/api
 The Admin Panel is accessible at http://127.0.0.1:8000/admin
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 ### 2. Frontend Setup (Next.js)
 
@@ -95,12 +98,11 @@ cp .env.example .env.local
 # Start the Next.js development server
 npm run dev
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 The Storefront will run at http://localhost:3000
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 🤝 Author
 [Y B Arzoo] Lead Full-Stack Developer [LinkedIn Profile Link: https://www.linkedin.com/in/y-b-arzoo/] • [Portfolio Link: https://yb-arzoo.vercel.app/]
 
-# Start the Laravel development server
-php artisan serve
+
