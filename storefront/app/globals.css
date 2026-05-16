@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* This defines your branding colors so you can use them in your code */
+  --color-brand-mint: #bbf7d0;
+  --color-brand-blue: #60a5fa;
+  --color-brand-dark: #1f2937;
+}
+
+/* Base styles using your branding */
+@layer base {
+  body {
+    @apply bg-slate-50 text-brand-dark antialiased;
+  }
+}
+
+/* Custom components using your branding */
+@layer components {
+  .btn-branding {
+    @apply bg-gradient-to-r from-brand-mint to-brand-blue text-gray-900 font-bold py-3 px-8 rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all;
+  }
+
+  .product-card {
+    @apply bg-white rounded-[2.5rem] border border-slate-100 hover:border-brand-blue/30 transition-all duration-500 shadow-sm hover:shadow-2xl hover:shadow-brand-blue/20;
+  }
+}
